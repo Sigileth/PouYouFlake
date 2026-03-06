@@ -1,0 +1,32 @@
+{ config, pkgs, pkgs-unstable, lib, ...}:
+
+{
+  environment.systemPackages = [
+  pkgs.delfin
+  pkgs.fastfetch
+  pkgs.git
+  pkgs.handbrake
+  pkgs.heroic
+  pkgs.kdePackages.kmahjongg
+  pkgs.libreoffice-qt-fresh
+  pkgs.librewolf
+  pkgs.mangohud
+  pkgs.mangojuice
+  pkgs.popsicle
+  pkgs.protonplus
+  pkgs.protontricks
+  pkgs.strawberry
+  pkgs.vlc
+  pkgs-unstable.mesa
+  pkgs-unstable.pkgsi686Linux.mesa
+  ];
+
+  programs.steam = {
+  enable = true;
+  gamescopeSession.enable = true;
+  remotePlay.openFirewall = true;
+  localNetworkGameTransfers.openFirewall = true;
+  dedicatedServer.openFirewall = true;
+  };
+
+}
