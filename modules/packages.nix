@@ -15,6 +15,8 @@
   pkgs.popsicle
   pkgs.protonplus
   pkgs.protontricks
+  pkgs.spice
+  pkgs.spice-vdagent
   pkgs.strawberry
   pkgs.vlc
   pkgs-unstable.mesa
