@@ -5,5 +5,5 @@
   services.avahi.enable = true;
   services.avahi.nssmdns4 = true;
   services.flatpak.enable = true;
-  #servcices.gvfs.enable = true;
+  services.spice-webdav.enable = true;
 }
