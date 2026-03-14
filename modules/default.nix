@@ -2,6 +2,7 @@
 
 {imports =
   [
+  ./aliases.nix
   ./packages.nix
   ./services.nix
   ./hardware.nix
