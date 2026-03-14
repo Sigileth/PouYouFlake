@@ -5,5 +5,6 @@
   ./packages.nix
   ./services.nix
   ./hardware.nix
+  ./kernel.nix
   ];
   }
