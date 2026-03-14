@@ -13,6 +13,7 @@
   pkgs.librewolf
   pkgs.mangohud
   pkgs.mangojuice
+  pkgs.nh
   pkgs.popsicle
   pkgs.protonplus
   pkgs.protontricks
