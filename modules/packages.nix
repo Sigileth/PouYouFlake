@@ -7,6 +7,7 @@
   pkgs.git
   pkgs.handbrake
   pkgs.heroic
+  pkgs.kdePackages.kate
   pkgs.kdePackages.kmahjongg
   pkgs.libreoffice-qt-fresh
   pkgs.librewolf
