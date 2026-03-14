@@ -1,6 +1,6 @@
 { config, pkgs, pkgs-unstable, lib, ...}:
 {
-shellAliases = {
+  environment.shellAliases = {
         pouyou-update = "sudo nix flake update --flake /home/ank/Flake && nh os boot /home/ank/flake -H PouYou -- --accept-flake-config";
         pouyou-build = "nh os build /home/ank/Flake -H PouYou -- --accept-flake-config";
         pouyou-switch = "sudo nix flake update --flake /home/ank/Flake && nh os switch /home/ank/Flake -H PouYou -- --accept-flake-config";
