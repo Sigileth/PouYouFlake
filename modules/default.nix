@@ -6,5 +6,6 @@
   ./services.nix
   ./hardware.nix
   ./kernel.nix
+  ./steam.nix
   ];
   }
