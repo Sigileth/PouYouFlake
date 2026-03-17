@@ -3,10 +3,11 @@
 {imports =
   [
   ./aliases.nix
-  ./packages.nix
-  ./services.nix
   ./hardware.nix
   ./kernel.nix
+  ./mounts.nix
+  ./packages.nix
+  ./services.nix  
   ./steam.nix
   ];
   }
