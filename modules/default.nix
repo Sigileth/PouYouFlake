@@ -9,5 +9,6 @@
   ./packages.nix
   ./services.nix  
   ./steam.nix
+  ./virt-manager.nix
   ];
   }
