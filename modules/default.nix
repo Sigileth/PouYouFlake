@@ -3,6 +3,7 @@
 {imports =
   [
   ./aliases.nix
+  ./flatpak.nix
   ./hardware.nix
   ./kernel.nix
   ./mounts.nix
