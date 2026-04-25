@@ -7,7 +7,7 @@
   };
   
   fileSystems."/var/mnt/gamesnvme1" = {
-  device = "/dev/disk/by-uuid/8e5260c6-5374-42a0-8d75-340cfce8ccb6";
+  device = "/dev/disk/by-uuid/501f02a1-625a-452b-9042-4c27823ee03c";
   fsType = "ext4";
   options = [ "nofail" "x-gvfs-show" "user" "exec" "noatime" "defaults" ]; 
   };
