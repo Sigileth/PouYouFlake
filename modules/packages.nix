@@ -15,6 +15,7 @@
   # Multimedia
   pkgs.delfin
   pkgs.handbrake
+  pkgs.makemkv
   pkgs.strawberry
   pkgs.vlc
 
