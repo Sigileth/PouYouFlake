@@ -58,7 +58,7 @@
   pkgs.vivaldi
   
   # Drivers
-  pkgs.spice-vdagent
+  #pkgs.spice-vdagent
   pkgs-unstable.mesa
   pkgs-unstable.pkgsi686Linux.mesa
   
