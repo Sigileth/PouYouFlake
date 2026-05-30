@@ -23,6 +23,7 @@
   pkgs.fastfetch
   pkgs.git
   pkgs.kdePackages.kate
+  pkgs.kdePackages.ksshaskpass
   pkgs.kronometer
   pkgs.nh
   pkgs.popsicle
