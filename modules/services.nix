@@ -6,4 +6,8 @@
   services.avahi.nssmdns4 = true;
   services.qemuGuest.enable = true;
   services.spice-vdagentd.enable = true;
+  services.fstrim = {
+      enable = true;
+      interval = "weekly";
+    };
 }
